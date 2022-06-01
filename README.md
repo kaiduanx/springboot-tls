@@ -26,3 +26,7 @@ security.provider.10=JdkLDAP
 security.provider.11=JdkSASL
 
 security.provider.12=SunPKCS11
+
+https://codersathi.com/how-to-use-self-signed-ssl-certificate-in-spring-boot-application/
+
+keytool -genkeypair -alias demo -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore demo.p12 -validity 3650
