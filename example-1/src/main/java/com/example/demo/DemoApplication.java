@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoApplication {
 
 	static {
-		java.security.Security.insertProviderAt(new org.bouncycastle.jce.provider.BouncyCastleProvider(), 2);
-		java.security.Security.insertProviderAt(new org.bouncycastle.jsse.provider.BouncyCastleJsseProvider(), 3);
+		java.security.Security.insertProviderAt(new org.bouncycastle.jce.provider.BouncyCastleProvider(), 1);
+		java.security.Security.insertProviderAt(new org.bouncycastle.jsse.provider.BouncyCastleJsseProvider(), 2);
 	}
 
 	public static void main(String[] args) {
