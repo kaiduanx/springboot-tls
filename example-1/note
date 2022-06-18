@@ -1,0 +1,6 @@
+1. The origin paper is on
+
+https://codersathi.com/how-to-use-self-signed-ssl-certificate-in-spring-boot-application/
+
+2. The command to generate key, alias is VERY IMPORTANT, otherwise bouncycale will reject it! 
+keytool -genkeypair -alias demo -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore demo.p12 -validity 3650
